@@ -1,0 +1,42 @@
+#inner {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 20px;
+  padding: 40px;
+  float: left;
+  background: #0b231e;
+}
+
+@media screen and (min-width: 480px) {
+  #inner{
+      width: 100%;
+  }
+}
+
+@media screen and (min-width: 780px) {
+  #inner{
+      width: 100%;
+  }
+}
+#tituloM{
+  text-align: center;
+  color: #fff;
+  background: #bc955c;
+}
+.pdf{
+  text-align: center;
+  width: 250px;
+  height: 200px;
+  color: #fff;
+  padding: 20px;
+  display: block;
+  border-radius: 10px;
+  float: left;
+  margin: 25px;
+  box-shadow: 0 0 20px 1px rgba(0,0,0,0.3);
+}
+.img{
+  height: 55%;
+  margin: 15px;
+  padding-right: 50px;
+}

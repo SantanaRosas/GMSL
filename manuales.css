@@ -1,0 +1,28 @@
+#contenido{
+    width: 100%;
+    height: auto
+}
+.cuadro{
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+    padding: 40px;
+    float: left;
+}
+.ma{
+    text-align: center;
+    color: #fff;
+    padding: 20px;
+}
+.dato{
+    display: flex;
+    float: left;
+    border-color: black;
+    padding: 50px;
+    margin: 25px;
+    width: 260px;
+    border: 50px;
+    background: #0b231e;
+    border-radius: 10%;
+    color: #fff;
+}
