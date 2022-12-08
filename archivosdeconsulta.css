@@ -4,7 +4,7 @@
   padding: 0 20px;
   padding: 40px;
   float: left;
-  background: #0b231e;
+ 
 }
 
 @media screen and (min-width: 480px) {
@@ -21,7 +21,6 @@
 #tituloM{
   text-align: center;
   color: #fff;
-  background: #bc955c;
 }
 .pdf{
   text-align: center;
@@ -34,6 +33,7 @@
   float: left;
   margin: 25px;
   box-shadow: 0 0 20px 1px rgba(0,0,0,0.3);
+  background: rgb(95, 93, 93);
 }
 .img{
   height: 55%;
