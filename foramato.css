@@ -1,0 +1,49 @@
+
+.s{
+    text-align: center;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: auto;
+}
+#inner {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+    padding: 40px;
+    float: left;
+  }
+  
+  @media screen and (min-width: 480px) {
+    #inn{
+        width: 100%;
+    }
+  }
+  
+  @media screen and (min-width: 780px) {
+    #inner{
+        width: 100%;
+    }
+  }
+  #tituloM{
+    text-align: center;
+    color: #fff;
+    background: #bc955c;
+  }
+  .pdf{
+    text-align: center;
+    width: 200px;
+    height: 150px;
+    color: #fff;
+    padding: 20px;
+    display: block;
+    border-radius: 10px;
+    float: left;
+    margin: 25px;
+    background: #bc955c;
+  }
+  .img{
+    height: 55%;
+    margin: 15px;
+    padding-right: 50px;
+  }
