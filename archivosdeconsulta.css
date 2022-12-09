@@ -18,9 +18,10 @@
       width: 100%;
   }
 }
-#tituloM{
-  text-align: center;
+.titulo1{
   color: #fff;
+  /* background: rgba(0,0,0,0.3); */
+  text-align: center;
 }
 .pdf{
   text-align: center;
@@ -32,7 +33,6 @@
   border-radius: 10px;
   float: left;
   margin: 25px;
-  box-shadow: 0 0 20px 1px rgba(0,0,0,0.3);
   background: rgb(95, 93, 93);
 }
 .img{
