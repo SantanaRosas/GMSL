@@ -1,0 +1,95 @@
+.contenido {
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    height: auto;
+}
+
+.texto {
+    color: #fff;
+    text-justify: auto;
+    top: 0;
+    padding: 20px 20px;
+}
+
+.tit {
+    text-align: center;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 30px 0;
+}
+
+@media(min-width: 770px) {
+    .contenido {
+        width: 100%;
+    }
+}
+
+@media(min-width: 770px) {
+    .texto {
+        width: 100%;
+    }
+}
+.iman {
+    height: 300px;
+    max-width: 350px;
+    border-radius: 5px;
+    /* float: left; */
+}
+
+.cont {
+    display: flex;
+}
+
+.carta {
+    height: 510px;
+    margin: 50px;
+    overflow: hidden;
+}
+
+.intro {
+    height: 60px;
+    width: 350px;
+    /* padding: 5px; */
+    box-sizing: border-box;
+    position: absolute;
+    background: rgba(27, 27, 27, 5);
+    color: #fff;
+    border-radius: 3px;
+}
+
+.ti {
+    margin: 10px;
+    font-size: 30px;
+}
+
+.desc {
+    font-size: 13px;
+    margin: 20px;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.carta:hover {
+    cursor: pointer;
+}
+
+.carta:hover .intro {
+    height: auto;
+    background: black;
+}
+
+.carta:hover .desc {
+    opacity: 1;
+    visibility: visible;
+}
+
+.carta:hover .iman {
+    transform: scale(1.1) rotate(-3deg);
+}
+@media(min-width:680px) {
+    .carta .cont{
+        width: 100%;
+        float: left;
+    }
+    
+}
