@@ -30,31 +30,39 @@
     }
 }
 .iman {
-    height: 300px;
-    max-width: 350px;
+    height: 350px;
+    max-width: 400px;
     border-radius: 5px;
     /* float: left; */
+    display: grid;
 }
 
 .cont {
     display: flex;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
 }
 
 .carta {
-    height: 510px;
-    margin: 50px;
+    height: 600px;
+    /* margin: 5px 50px; */
+    margin: auto;
     overflow: hidden;
 }
 
 .intro {
-    height: 60px;
-    width: 350px;
+    height: 70px;
+    width: 400px;
     /* padding: 5px; */
     box-sizing: border-box;
     position: absolute;
     background: rgba(27, 27, 27, 5);
     color: #fff;
     border-radius: 3px;
+}
+.carta .ti .desc{
+    width: 100%;
+
 }
 
 .ti {
