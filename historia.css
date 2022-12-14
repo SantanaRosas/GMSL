@@ -19,7 +19,8 @@ body {
     font-size: 18px;
     font-weight: 900;
     text-transform: uppercase;
-    background: #00b0bd;
+    /* background: #00b0bd; */
+    background: linear-gradient(to right, #020203, #0b231e);
     padding: 15px 23px;
     color: #fff;
     max-width: 5%;
@@ -35,7 +36,8 @@ body {
     top: 0;
     left: 50%;
     margin-left: -2px;
-    background: #00b0bd;
+    /* background: #00b0bd; */
+    background: linear-gradient(to right, #020203, #0b231e);
     z-index: -1;
 }
 
@@ -63,7 +65,7 @@ body {
     font-weight: 400;
     font-size: 14px;
     line-height: 24px;
-    color: #242424;
+    color: #111;
     text-align: right;
 }
 
@@ -93,7 +95,8 @@ body {
     font-size: 44px;
     top: 10px;
     left: -60px;
-    color: #00b0bd;
+    /* color: #00b0bd; */
+    color: #111;
 }
 
 .timeline-article .content-left-container {
