@@ -8,14 +8,17 @@
 }
 #inner {
     width: 100%;
-    margin: 0 auto;
-    padding: 0 20px;
-    padding: 40px;
+    margin: 55px;
     float: left;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    align-items: center;
+    text-align: center;
+    justify-content: center;
   }
   
   @media screen and (min-width: 480px) {
-    #inn{
+    #inner{
         width: 100%;
     }
   }
@@ -25,25 +28,15 @@
         width: 100%;
     }
   }
-  #tituloM{
-    text-align: center;
-    color: #fff;
-    background: #bc955c;
-  }
   .pdf{
     text-align: center;
-    width: 200px;
-    height: 150px;
+    width: 250px;
+    height: 120px;
     color: #fff;
-    padding: 20px;
+    padding: 25px;
     display: block;
     border-radius: 10px;
     float: left;
     margin: 25px;
     background: #bc955c;
-  }
-  .img{
-    height: 55%;
-    margin: 15px;
-    padding-right: 50px;
   }
