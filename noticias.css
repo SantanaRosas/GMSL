@@ -31,7 +31,7 @@
 }
 .iman {
     height: 300px;
-    max-width: 320px;
+    max-width: 400px;
     border-radius: 5px;
     display: grid;
 }
@@ -50,7 +50,7 @@
 
 .intro {
     height: 70px;
-    width: 320px;
+    width: 400px;
     /* padding: 5px; */
     box-sizing: border-box;
     position: absolute;
@@ -85,4 +85,11 @@
 
 .carta:hover .iman {
     transform: scale(1.1) rotate(-3deg);
+}
+.correo{
+    text-align: center;
+    height: 50px;
+    width: 100%;
+    align-items: center;
+    border-radius: 5px;
 }
