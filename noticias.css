@@ -30,29 +30,27 @@
     }
 }
 .iman {
-    height: 350px;
-    max-width: 400px;
+    height: 300px;
+    max-width: 320px;
     border-radius: 5px;
-    /* float: left; */
     display: grid;
 }
 
 .cont {
-    display: flex;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
 
 .carta {
-    height: 600px;
-    /* margin: 5px 50px; */
+    height: 500px;
+    margin: 5px 5px;
     margin: auto;
     overflow: hidden;
 }
 
 .intro {
     height: 70px;
-    width: 400px;
+    width: 320px;
     /* padding: 5px; */
     box-sizing: border-box;
     position: absolute;
@@ -60,11 +58,6 @@
     color: #fff;
     border-radius: 3px;
 }
-.carta .ti .desc{
-    width: 100%;
-
-}
-
 .ti {
     margin: 10px;
     font-size: 30px;
@@ -72,7 +65,6 @@
 
 .desc {
     font-size: 13px;
-    margin: 20px;
     visibility: hidden;
     opacity: 0;
 }
@@ -93,11 +85,4 @@
 
 .carta:hover .iman {
     transform: scale(1.1) rotate(-3deg);
-}
-@media(min-width:680px) {
-    .carta .cont{
-        width: 100%;
-        float: left;
-    }
-    
 }
