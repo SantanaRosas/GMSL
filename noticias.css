@@ -31,7 +31,7 @@
 }
 .iman {
     height: 300px;
-    max-width: 400px;
+    max-width: 330px;
     border-radius: 5px;
     display: grid;
 }
@@ -50,7 +50,7 @@
 
 .intro {
     height: 70px;
-    width: 400px;
+    width: 330px;
     /* padding: 5px; */
     box-sizing: border-box;
     position: absolute;
@@ -88,7 +88,7 @@
 }
 .correo{
     text-align: center;
-    height: 50px;
+    height: auto;
     width: 100%;
     align-items: center;
     border-radius: 5px;
