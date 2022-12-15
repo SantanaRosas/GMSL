@@ -31,7 +31,7 @@
 }
 .iman {
     height: 350px;
-    max-width: 400px;
+    max-width: 330px;
     border-radius: 5px;
     /* float: left; */
     display: grid;
@@ -52,7 +52,7 @@
 
 .intro {
     height: 70px;
-    width: 400px;
+    width: 330px;
     /* padding: 5px; */
     box-sizing: border-box;
     position: absolute;
@@ -60,11 +60,6 @@
     color: #fff;
     border-radius: 3px;
 }
-.carta .ti .desc{
-    width: 100%;
-
-}
-
 .ti {
     margin: 10px;
     font-size: 30px;
