@@ -142,18 +142,41 @@ body {
     width: 40px;
     height: 40px;
     text-align: center;
-    line-height: 40px;
-    background: #7a0825;
-    border-radius: 50%;
+    line-height: 33px;
+    background: #000;
+    border-radius: 50%  ;
     color: #fff;
+    border: solid 3px #fff;
 }
-.next{
+.next .left{
     display: block;
-    background: #7a0825;
+    background: #fff;
     color: #fff;
     width: 30px;
     height: 30px;
     line-height: 30px;
     text-decoration: none;
     text-align: center;
+    border-radius: 50%;
+}
+.next .right{
+    display: block;
+    background: #fff;
+    color: #fff;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 50%;
+}
+@media screen and (max-width:400px) {
+    .galerias{
+        grid-template-columns: repeat(auto-fit minmax(200px, 1fr));
+    }
+    
+    .close{
+        top: 20px;
+        right: 20px;
+    }
 }
