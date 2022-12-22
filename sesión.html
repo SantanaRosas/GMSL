@@ -5,17 +5,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="assets/logo.png" type="image/x-icon">
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet" />
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+    <link rel="shortcut icon" href="assets/logo.png">
+    <title>Gerencia Metropolitana Sur</title>
 
 <body ondragstart="return false" onselectstart="return false" oncontextmenu="return false">
-    <link rel="stylesheet" href="manuales.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
     <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="sesión.css">
     <script type="module" src="scroll.js"></script>
-    <title>Manuales</title>
+    <script type="module" src="sesion.js"></script>
     </head>
 
     <body>
@@ -54,7 +52,7 @@
                         <ul>
                             <li><a href="formatos.html">Formatos por Area</a></li>
                             <li><a href="haccp.html">HACCP</a></li>
-                        </ul
+                        </ul>
                     </li>
                     <!-- fin del menu desplegable -->
                     <li><a href="#">Capacitación</a>
@@ -81,23 +79,62 @@
         </div>
 
         <!-- fin del contenido del menu -->
-        <div id="contenido" class="slider">
-            <h1 class="ma">Manuales</h1>
-            <div class="cuadro">
-                <div class="dato"><a href="#"><img src="assets/pdf1.png" alt="Archivo pdf">Manuel Avaya J129 </a></div>
-                <div class="dato"><a href="#"><img src="assets/pdf1.png" alt="Archivo pdf">Manual de Usuario Teambox </a></div>
-                <div class="dato"><a href="#"><img src="assets/pdf1.png" alt="Archivo pdf">Manual Avaya J169</a></div>
-                <div class="dato"><a href="#"><img src="assets/pdf1.png" alt="Archivo pdf">Manual de Usuario SGC </a></div>
-                <div class="dato"><a href="#"><img src="assets/pdf1.png" alt="Archivo pdf">Manual de Usuario SABYS </a></div>
-                <div class="dato"><a href="#"><img src="assets/pdf1.png" alt="Archivo pdf">Manual de Usuario Comedor </a></div>
-                <div class="dato"><a href="#"><img src="assets/pdf1.png" alt="Archivo pdf">Manual de Usuario ISO </a></div>
-                <div class="dato"><a href="#"><img src="assets/pdf1.png" alt="Archivo pdf">Manual de Usuario HACCP </a></div>
-                <div class="dato"><a href="#"><img src="assets/pdf1.png" alt="Archivo pdf">Manual de Usuario Industria Limpia </a></div>
-                <div class="dato"><a href="#"><img src="assets/pdf1.png" alt="Archivo pdf">Manual de Usuario EMA </a></div>
-                <div class="dato"><a href="#"><img src="assets/pdf1.png" alt="Archivo pdf">Manual de Usuario SIIBOP </a></div>
-                <div class="dato"><a href="#"><img src="assets/pdf1.png" alt="Archivo pdf">Manual de Usuario SICOP </a></div>
-            </div>
+        <div class="slider"></div>
+
+        <div class="overlay">
+            <!-- LOGN IN FORM by Omar Dsoky -->
+            <form>
+                <!--   con = Container  for items in the form-->
+                <div class="con">
+                    <!--     Start  header Content  -->
+                    <header class="head-form">
+                        <h2>Iniciar Sesión</h2>
+                        <!--     A welcome message or an explanation of the login form -->
+                        <p>Inicie sesión aquí con su nombre de usuario y contraseña</p>
+                    </header>
+                    <!--     End  header Content  -->
+                    <br>
+                    <div class="field-set">
+
+                        <!--   user name -->
+                        <span class="input-item">
+                            <i class="fa fa-user-circle"></i>
+                        </span>
+                        <!--   user name Input-->
+                        <input class="form-input" id="txt-input" type="text" placeholder="@Usuario" required>
+
+                        <br>
+
+                        <!--   Password -->
+
+                        <span class="input-item">
+                            <i class="fa fa-key"></i>
+                        </span>
+                        <!--   Password Input-->
+                        <input class="form-input" type="password" placeholder="Contraseña" id="pwd" name="password"
+                            required>
+
+                        <!--      Show/hide password  -->
+                        <span>
+                            <i class="fa fa-eye" aria-hidden="true" type="button" id="eye"></i>
+                        </span>
+
+
+                        <br>
+                        <!--        buttons -->
+                        <!--      button LogIn -->
+                        <button class="log-in">Iniciar Sesión</button>
+                    </div>
+
+                    <!--   other buttons -->
+
+                    <!--   End Conrainer  -->
+                </div>
+
+                <!-- End Form -->
+            </form>
         </div>
+
         <footer>
             <p>Dirección</p>
             <p>Calle Santana Catrina No.2 Col. Santa Catarina</p>
