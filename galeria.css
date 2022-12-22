@@ -126,8 +126,8 @@ body {
     transition: transform .3s ease-in-out;
 }
 .light-box .-imagenes2-{
-    width: 90%;
-    max-height: 75vh;   
+    width: 86vw;
+    max-height: 75vh;
 }
 .light-box:target{
     transform: scale(1);
@@ -135,8 +135,8 @@ body {
 .close{
     display: block;
     position: absolute;
-    top: 5px;
-    right: 5px;
+    top: 0px;
+    right: 0px;
     text-decoration: none;
     width: 40px;
     height: 40px;
