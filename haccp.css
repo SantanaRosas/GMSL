@@ -34,8 +34,8 @@ h2{
     overflow: hidden;
     margin: auto;
     text-align: center;
-    background: #fff;
-    color: #111;
+    background: #6a1b31;
+    color: #fff;
 }
 
 .espacio{
@@ -64,7 +64,7 @@ h2{
     height: inherit;
     justify-content: center;
     align-items: center;
-    color: #fff;
+    color: #000;
     font-weight: 400;
 }
 

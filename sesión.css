@@ -5,12 +5,15 @@ form {
     width: 70%;
     min-height: 100%;
     height: auto;
-    border-radius: 5px;
+    border-radius: 10px;
     margin: 2% auto;
-    box-shadow: 0  9px 50px rgba(0, 0, 0, 0.5);
+    /* box-shadow: 0  9px 50px rgba(0, 0, 0, 0.5); */
     padding: 2%;
-    background: linear-gradient(20deg, rgba(0,0,0,1) 30%, rgba(71,0,28,1) 60%, rgba(0,255,202,1) 90%);
+    /* background: linear-gradient(-20deg, rgba(0,0,0,1) 30%, rgba(71,0,28,1) 60%, rgba(0,255,202,1) 90%); */
+    background-color: #8a0015;
+    /* background: linear-gradient(90deg, rgba(255,249,249,1) 0%, rgba(0,0,0,1) 50%); */
 }
+
 
 /* form Container */
 form .con {
@@ -23,16 +26,16 @@ form .con {
 
 /* the header form form */
 header {
-    margin: 2% auto 10% auto;
+    margin: 2% auto 0 auto;
     text-align: center;
 }
 
 /* Login title form form */
-header h2 {
-    font-size: 250%;
-    font-family: 'Playfair Display', serif;
-    color: #fff;
-}
+/* header h2 { */
+    /* font-size: 400%; */
+    /* font-family: 'Playfair Display', serif; */
+    /* color: #fff; */
+/* } */
 
 /*  A welcome message or an explanation of the login form */
 header p {
@@ -43,6 +46,39 @@ header p {
     width: 30%;
     height: auto;
 }
+
+h2 {
+    text-transform: Uppercase;
+    margin-bottom: .5em;
+    font-family: 'Rubik', sans-serif;
+    font-size: 3rem;
+    color: #E4E5E6;
+}
+    
+    h2{
+    position: relative;
+    background: linear-gradient(-20deg, rgba(0,0,0,1) 30%, rgba(71,0,28,1) 60%, rgba(0,255,202,1) 90%);
+    /* background: linear-gradient(90deg, rgba(0,249,238,1) 0%, rgba(10,66,79,1) 50%, rgba(187,185,185,1) 100%); */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+ }
+    
+    h2:before,
+    h2:after {
+    content: attr(data-text);
+    position: absolute;
+    top: 0;
+    left: 0; }
+    
+    h2:before {
+    z-index: -1;
+    text-shadow: -0.001em -0.001em 1px rgba(255,255,255,.15)}
+    
+    h2:after {
+    z-index: -2;
+    text-shadow: 10px 10px 10px rgba(0,0,0,.5), 20px 20px 20px rgba(0,0,0,.4), 30px 30px 30px rgba(0,0,0,.1);
+    mix-blend-mode: multiply; }
+    
 
 
 
@@ -78,7 +114,7 @@ header p {
 
 /* inputs form  */
 input[class="form-input"] {
-    width: 240px;
+    width: 250px;
     height: 50px;
 
     margin-top: 2%;
