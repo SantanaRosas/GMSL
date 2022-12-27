@@ -80,7 +80,8 @@
 
 .carta:hover .intro {
     height: auto;
-    background: #c3062c; 
+    /* background: #c3062c; */
+    background: #8a0015;
 }
 
 .carta:hover .desc {
@@ -92,7 +93,7 @@
     transform: scale(1.1) rotate(-3deg);
 }
 button{
-    background: #c3062c;
+    background: #8a0015;
     border: none;
     padding: 20px 50px;
     font-size: 20px;
