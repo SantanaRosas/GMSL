@@ -18,8 +18,8 @@ html {
 body {
   margin: auto;
   font-family: Arial;
-  text-justify: distribute-all-lines;
   font-weight: 900;
+  text-justify: distribute;
 }
 
 body::-webkit-scrollbar {
@@ -34,8 +34,8 @@ body::-webkit-scrollbar-thumb {
 }
 
 body::-webkit-scrollbar-thumb:hover {
-  /* background: linear-gradient(30deg, rgba(2,0,36,1) 0%, rgba(39,4,51,1) 51%, rgba(0,212,255,1) 100%); */
-  background: linear-gradient(30deg, #47001c, #971132);
+  background: linear-gradient(30deg, rgba(2,0,36,1) 0%, rgba(39,4,51,1) 51%, rgba(0,212,255,1) 100%);
+  /* background: linear-gradient(30deg, #fff, #971132); */
 }
 
 /* inicio del stilo de la primera pagina */
@@ -115,9 +115,8 @@ a {
 
 /* efecto al pasar el cursor */
 #menus ul li:hover {
-  background: linear-gradient(to right, #47001c, #971132);
+  background: linear-gradient(to right, #c3062c, #47001c);
   border-radius: 5px;
-  transition: 0.5s;
 }
 
 /* menu desplegable */
@@ -389,7 +388,7 @@ footer {
 } */
 
 .timeline-content {
-  background: linear-gradient(to left, #000000 20%, #61001b);
+  background: linear-gradient(to left, #61001b 5%, #c3062c);
   padding: 30px;
   border-radius: 5px;
 }

@@ -80,7 +80,7 @@
 
 .carta:hover .intro {
     height: auto;
-    background: black;
+    background: #c3062c; 
 }
 
 .carta:hover .desc {
@@ -91,11 +91,40 @@
 .carta:hover .iman {
     transform: scale(1.1) rotate(-3deg);
 }
-.correo{
-    /* background-color: aqua; */
+button{
+    background: #c3062c;
+    border: none;
+    padding: 20px 50px;
+    font-size: 20px;
+    font-weight: bold;
+    position: relative;
+    border-radius: 25px;
+    margin: 10px;
+    align-items: center;
+    justify-items: center;
+}
+button::before{
+    content: "";
+    top: 0;
+    left: 0;
+    z-index: -1;
+    position: absolute;
     width: 100%;
-    height: auto;
-    text-align: center;
-    padding: 5px;
-    display: block;
+    height: 100%;
+    background: linear-gradient(70deg, #00d4ff, #ff0505, #fefefe, #00d4ff, #ff0505, #fefefe, #00d4ff, #ff0505, #fefefe);
+    background-size: 800%;
+    border-radius: 10px;
+    filter: blur(8px);
+    animation: animado 20s linear infinite;
+}
+@keyframes animado{
+    0%{
+        background-position: 0 0;
+    }
+    50%{
+        background-position: 500% 0;
+    }
+    100%{
+        background-position: 0 0;
+    }
 }
