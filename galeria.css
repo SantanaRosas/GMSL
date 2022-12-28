@@ -124,7 +124,8 @@ body {
     justify-items: center;
     align-items: center;
     transform: scale(0);
-    transition: transform .3s ease-in-out;
+    /* transition: transform .3s ease-in-out; */
+    background: rgba(0, 0, 0, 0.7);
 }
 .light-box .-imagenes2-{
     width: 86vw;
