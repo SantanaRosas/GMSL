@@ -48,7 +48,8 @@ iframe {
 
 
 .video {
-    border: .2rem solid #fff;
+    border: .4rem solid #bc955c;
+    border-radius: 10px;
 }
 
 .contvideos {
