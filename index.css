@@ -373,12 +373,6 @@ img{
   padding: 10px;
   /* background-color: #0C231E; */
 }
-.grid3{
-  display: grid;
-  grid-template-columns: auto auto;
-  padding: 10px;
-  /* background-color: #0C231E; */
-}
 .videos{
   padding: 5px;
   align-items: center;
