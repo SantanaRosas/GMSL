@@ -396,7 +396,9 @@ img{
 .timeline-item:last-child {
   margin-bottom: 0;
 }
-
+i{
+  margin: 10px;
+}
 
 /* .timeline-item:nth-child(odd) {
   padding-right: calc(45% + 30px);
