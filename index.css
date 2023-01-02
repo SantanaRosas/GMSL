@@ -359,7 +359,7 @@ footer {
 }
 
 .grid > .grid-imagenes{
-  border: 5px solid #bc955c;
+  border: 2px solid #bc955c;
   justify-content: center;
   align-items: center;
 }
@@ -372,6 +372,7 @@ img{
   grid-template-columns: auto;
   padding: 10px;
   /* background-color: #0C231E; */
+  border: 2px solid #FFF;
 }
 .videos{
   padding: 5px;
