@@ -47,9 +47,9 @@ body {
 }
 
 .cont {
-    display: flex;
+    /* display: flex; */
     display: grid;
-    grid-template-columns: auto auto auto auto;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
 }
 
 .carta {
